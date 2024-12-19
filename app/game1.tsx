@@ -47,16 +47,15 @@ export default function Game1Screen() {
 
   useEffect(() => {
     ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
-    return () => {
-      ScreenOrientation.unlockAsync();
-    };
   }, []);
 
-  const calculatePayoutMultiplier = (result) => {
+  const calculatePayoutMultiplier = (result: number[]) => {
     let multiplier = 0;
 
     // Перевірка на всі однакові
-    const allSame = result.every((iconIndex) => iconIndex === result[0]);
+    const allSame = result.every(
+      (iconIndex: number) => iconIndex === result[0]
+    );
     if (allSame) {
       return 100;
     }
@@ -109,22 +108,28 @@ export default function Game1Screen() {
     const bet = 100;
     setBalance((prev) => prev - bet);
 
-    // Генеруємо кінцевий результат
+    // Генеруємо новий результат
     const newResult = Array(9)
       .fill(null)
       .map(() => Math.floor(Math.random() * slotIcons.length));
 
-    const spinDuration = 1000;
-    const delayBetweenColumns = 500;
+    // Показуємо проміжні іконки одразу
+    setAnimatedResult(newResult);
+
+    const numberOfSpins = 5; // Кількість обертів
+    const spinDurationPerSpin = 500; // Тривалість одного оберту (мс)
+    const totalSpinDuration = spinDurationPerSpin * numberOfSpins;
+
+    const delayBetweenColumns = 200; // Зменшив затримку між колонками для плавності
 
     let completedAnimations = 0;
 
     spinValues.forEach((val, index) => {
       val.setValue(0);
       Animated.timing(val, {
-        toValue: 1,
-        duration: spinDuration,
-        easing: Easing.inOut(Easing.quad),
+        toValue: numberOfSpins,
+        duration: totalSpinDuration,
+        easing: Easing.linear, // Використовуємо лінійне згладжування для рівномірного обертання
         useNativeDriver: true,
         delay: index * delayBetweenColumns,
       }).start(({ finished }) => {
@@ -133,8 +138,7 @@ export default function Game1Screen() {
 
           // Коли всі анімації завершилися
           if (completedAnimations === spinValues.length) {
-            // Оновлюємо кінцевий стан
-            setSlotResult([...newResult]);
+            setSlotResult(newResult);
             const multiplier = calculatePayoutMultiplier(newResult);
             const win = bet * multiplier;
             setVictory(win);
@@ -146,19 +150,26 @@ export default function Game1Screen() {
     });
   };
 
-  const renderColumn = (colIndex) => {
+  const renderColumn = (colIndex: number) => {
     const indices = [colIndex, colIndex + 3, colIndex + 6];
-    const iconsForColumn = indices.map((i) => slotIcons[slotResult[i]]);
+    const iconsForColumn = indices.map((i) => slotIcons[animatedResult[i]]);
 
-    const allIcons = [...iconsForColumn, ...iconsForColumn];
+    const allIcons = [];
+    const numberOfSpins = 10;
+    for (let i = 0; i < numberOfSpins; i++) {
+      allIcons.push(...iconsForColumn);
+    }
+    allIcons.push(...iconsForColumn);
 
     const iconContainerHeight = 80;
-    const totalHeight = iconContainerHeight;
 
     const translateY = spinValues[colIndex].interpolate({
-      inputRange: [0, 1],
-      outputRange: [0, -totalHeight / 2],
-      extrapolate: "clamp",
+      inputRange: [0, numberOfSpins],
+      outputRange: [
+        0,
+        -iconContainerHeight * iconsForColumn.length * numberOfSpins,
+      ],
+      extrapolate: "extend",
     });
 
     return (
@@ -178,6 +189,7 @@ export default function Game1Screen() {
               }}
             >
               <Image source={icon} style={styles.slotIcon} />
+              {/* <Image source={require("../assets/images/game3/win.png")} /> */}
             </View>
           ))}
         </Animated.View>
@@ -217,7 +229,7 @@ export default function Game1Screen() {
           </View>
 
           <View>
-            <View style={{ flexDirection: "row", left: 130 }}>
+            <View style={{ flexDirection: "row", left: 65, bottom: 25 }}>
               <TouchableOpacity onPress={() => router.push("/")}>
                 <Image
                   source={require("../assets/images/go-home.png")}
@@ -249,12 +261,21 @@ export default function Game1Screen() {
               }}
             >
               <Image
-                source={require("../assets/images/slot-plus.png")}
+                source={require("../assets/images/slot-minus.png")}
                 style={styles.buttonPlusMinusImage}
               />
-              <Text style={{ color: "#fff" }}>100</Text>
+              <Text
+                style={{
+                  color: "#fff",
+                  fontSize: 40,
+                  fontWeight: 700,
+                  fontStyle: "italic",
+                }}
+              >
+                100
+              </Text>
               <Image
-                source={require("../assets/images/slot-minus.png")}
+                source={require("../assets/images/slot-plus.png")}
                 style={styles.buttonPlusMinusImage}
               />
             </View>
@@ -282,7 +303,6 @@ const styles = StyleSheet.create({
     ...StyleSheet.absoluteFillObject,
   },
   container: {
-    top: -20,
     left: 20,
   },
   rowContainer: {
@@ -316,7 +336,7 @@ const styles = StyleSheet.create({
   },
   columnContainer: {
     width: "33%",
-    height: "100%",
+    height: 240,
     overflow: "hidden",
     alignItems: "center",
     justifyContent: "center",
@@ -328,13 +348,16 @@ const styles = StyleSheet.create({
     zIndex: 1,
   },
   button: {
+    top: 5,
+    right: 10,
     bottom: 0,
     width: 300,
     alignItems: "center",
   },
   buttonImage: {
-    width: 200,
-    height: 70,
+    top: 10,
+    right: 5,
+    height: 80,
     resizeMode: "contain",
   },
   goButton: {
