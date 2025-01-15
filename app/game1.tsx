@@ -8,15 +8,22 @@ import {
   Text,
   Animated,
   Easing,
+  Alert,
 } from "react-native";
 import * as ScreenOrientation from "expo-screen-orientation";
 import { LinearGradient } from "expo-linear-gradient";
 import { useRouter } from "expo-router";
 import GradientButton from "@/components/GradientButton";
 import Banner from "@/components/Banner";
+import { Audio } from "expo-av";
+import useBalanceStore from "@/store/useBalance";
+import { useFocusEffect } from "@react-navigation/native";
+import { useTranslation } from "react-i18next";
+import useSoundVibrationStore from "@/store/useSoundVibrationStore";
 
 export default function Game1Screen() {
   const router = useRouter();
+  const { t } = useTranslation();
 
   const slotIcons = [
     require("../assets/images/game1(slot)/slot-icon-1.png"),
@@ -27,40 +34,92 @@ export default function Game1Screen() {
     require("../assets/images/game1(slot)/slot-icon-6.png"),
   ];
 
-  // Ініціалізуємо поле випадковими іконками
   const [slotResult, setSlotResult] = useState(() =>
     Array(9)
       .fill(null)
       .map(() => Math.floor(Math.random() * slotIcons.length))
   );
-  const [balance, setBalance] = useState(1000);
   const [victory, setVictory] = useState(0);
   const [isSpinning, setIsSpinning] = useState(false);
   const [animatedResult, setAnimatedResult] = useState(slotResult);
+  const [winningPositions, setWinningPositions] = useState<number[]>([]);
 
-  // Три анімовані значення для трьох колонок
+  const { soundVolume } = useSoundVibrationStore((state) => state);
+  const balance = useBalanceStore((state) => state.balance);
+  const addHighScore = useBalanceStore((state) => state.addHighScore);
+  const incrementBalance = useBalanceStore((state) => state.incrementBalance);
+  const decrementBalance = useBalanceStore((state) => state.decrementBalance);
+
+  const bet = useBalanceStore((state) => state.bet);
+  const incrementBet = useBalanceStore((state) => state.incrementBet);
+  const decrementBet = useBalanceStore((state) => state.decrementBet);
+
   const spinValues = [
     useRef(new Animated.Value(0)).current,
     useRef(new Animated.Value(0)).current,
     useRef(new Animated.Value(0)).current,
   ];
 
+  const spinSound = useRef(new Audio.Sound());
+  const winSound = useRef(new Audio.Sound());
+
   useEffect(() => {
-    ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
-  }, []);
+    addHighScore("game1", undefined);
+
+    (async () => {
+      try {
+        await spinSound.current.loadAsync(
+          require("../assets/sounds/spin-sound.mp3")
+        );
+        await spinSound.current.setVolumeAsync(soundVolume);
+
+        await winSound.current.loadAsync(
+          require("../assets/sounds/slot-win-sound.mp3")
+        );
+        await winSound.current.setVolumeAsync(soundVolume);
+      } catch (error) {
+        console.error("Error loading sounds:", error);
+      }
+    })();
+
+    return () => {
+      spinSound.current.unloadAsync();
+      winSound.current.unloadAsync();
+    };
+  }, [soundVolume]);
+
+  useEffect(() => {
+    if (isSpinning) {
+      spinSound.current.replayAsync().catch((error) => {
+        console.error("Error playing spin sound:", error);
+      });
+    } else {
+      spinSound.current.stopAsync().catch((error) => {
+        console.error("Error stopping spin sound:", error);
+      });
+    }
+  }, [isSpinning]);
+
+  useFocusEffect(
+    React.useCallback(() => {
+      ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.LANDSCAPE);
+    }, [])
+  );
 
   const calculatePayoutMultiplier = (result: number[]) => {
     let multiplier = 0;
+    const winPositions: number[] = [];
 
-    // Перевірка на всі однакові
     const allSame = result.every(
       (iconIndex: number) => iconIndex === result[0]
     );
     if (allSame) {
-      return 100;
+      multiplier = 100;
+      winPositions.push(...Array.from({ length: 9 }, (_, i) => i));
+      setWinningPositions(winPositions);
+      return multiplier;
     }
 
-    // Горизонталі
     const horizontals = [
       [0, 1, 2],
       [3, 4, 5],
@@ -70,10 +129,10 @@ export default function Game1Screen() {
       const [a, b, c] = line;
       if (result[a] === result[b] && result[b] === result[c]) {
         multiplier += 5;
+        winPositions.push(...line);
       }
     });
 
-    // Вертикалі
     const verticals = [
       [0, 3, 6],
       [1, 4, 7],
@@ -83,10 +142,10 @@ export default function Game1Screen() {
       const [a, b, c] = line;
       if (result[a] === result[b] && result[b] === result[c]) {
         multiplier += 5;
+        winPositions.push(...line);
       }
     });
 
-    // Діагоналі
     const diagonals = [
       [0, 4, 8],
       [2, 4, 6],
@@ -95,32 +154,42 @@ export default function Game1Screen() {
       const [a, b, c] = line;
       if (result[a] === result[b] && result[b] === result[c]) {
         multiplier += 10;
+        winPositions.push(...line);
       }
     });
 
+    setWinningPositions(winPositions);
     return multiplier;
   };
 
   const spinSlots = () => {
-    if (isSpinning) return; // Якщо вже крутиться, не запускаємо вдруге
+    if (isSpinning) return;
+
+    if (balance < bet) {
+      Alert.alert(
+        "Insufficient Balance",
+        "You do not have enough balance to place this bet."
+      );
+      return;
+    }
+
+    setWinningPositions([]);
     setIsSpinning(true);
 
-    const bet = 100;
-    setBalance((prev) => prev - bet);
+    const currentBet = bet;
+    decrementBalance(currentBet);
 
-    // Генеруємо новий результат
     const newResult = Array(9)
       .fill(null)
       .map(() => Math.floor(Math.random() * slotIcons.length));
 
-    // Показуємо проміжні іконки одразу
     setAnimatedResult(newResult);
 
-    const numberOfSpins = 5; // Кількість обертів
-    const spinDurationPerSpin = 500; // Тривалість одного оберту (мс)
+    const numberOfSpins = 5;
+    const spinDurationPerSpin = 500;
     const totalSpinDuration = spinDurationPerSpin * numberOfSpins;
 
-    const delayBetweenColumns = 200; // Зменшив затримку між колонками для плавності
+    const delayBetweenColumns = 200;
 
     let completedAnimations = 0;
 
@@ -129,20 +198,27 @@ export default function Game1Screen() {
       Animated.timing(val, {
         toValue: numberOfSpins,
         duration: totalSpinDuration,
-        easing: Easing.linear, // Використовуємо лінійне згладжування для рівномірного обертання
+        easing: Easing.linear,
         useNativeDriver: true,
         delay: index * delayBetweenColumns,
       }).start(({ finished }) => {
         if (finished) {
           completedAnimations += 1;
 
-          // Коли всі анімації завершилися
           if (completedAnimations === spinValues.length) {
             setSlotResult(newResult);
             const multiplier = calculatePayoutMultiplier(newResult);
-            const win = bet * multiplier;
+            const win = currentBet * multiplier;
             setVictory(win);
-            setBalance((prev) => prev + win);
+            if (win > 0) {
+              incrementBalance(win);
+              addHighScore("game1", win);
+
+              winSound.current.replayAsync().catch((error) => {
+                console.error("Error playing win sound:", error);
+              });
+            }
+
             setIsSpinning(false);
           }
         }
@@ -179,23 +255,37 @@ export default function Game1Screen() {
             transform: [{ translateY }],
           }}
         >
-          {allIcons.map((icon, i) => (
-            <View
-              key={i}
-              style={{
-                height: iconContainerHeight,
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <Image source={icon} style={styles.slotIcon} />
-              {/* <Image source={require("../assets/images/game3/win.png")} /> */}
-            </View>
-          ))}
+          {allIcons.map((iconSource, i) => {
+            const position = indices[i % 3];
+            return (
+              <View
+                key={i}
+                style={{
+                  height: iconContainerHeight,
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <Image source={iconSource} style={styles.slotIcon} />
+                {winningPositions.includes(position) && (
+                  <Image
+                    source={require("../assets/images/game3/win.png")}
+                    style={{
+                      position: "absolute",
+                      width: 110,
+                      height: 110,
+                    }}
+                  />
+                )}
+              </View>
+            );
+          })}
         </Animated.View>
       </View>
     );
   };
+
+  const isSpinDisabled = isSpinning || balance < bet;
 
   return (
     <ImageBackground
@@ -207,10 +297,15 @@ export default function Game1Screen() {
         style={styles.gradient}
       />
       <View style={styles.container}>
-        <View style={{ left: "23%" }}>
+        <View style={{ left: "19%", width: "20%" }}>
           <GradientButton
-            title="High score"
-            onPress={() => router.push("/setting-screen")}
+            title={t("highScore")}
+            onPress={() =>
+              router.push({
+                pathname: "/high-score",
+                params: { gameId: "game1" },
+              })
+            }
           />
         </View>
         <View style={styles.rowContainer}>
@@ -260,27 +355,36 @@ export default function Game1Screen() {
                 justifyContent: "center",
               }}
             >
-              <Image
-                source={require("../assets/images/slot-minus.png")}
-                style={styles.buttonPlusMinusImage}
-              />
+              <TouchableOpacity onPress={() => decrementBet(50)}>
+                <Image
+                  source={require("../assets/images/slot-minus.png")}
+                  style={styles.buttonPlusMinusImage}
+                />
+              </TouchableOpacity>
               <Text
                 style={{
                   color: "#fff",
                   fontSize: 40,
-                  fontWeight: 700,
+                  fontWeight: "700",
                   fontStyle: "italic",
+                  marginHorizontal: 20,
                 }}
               >
-                100
+                {bet}
               </Text>
-              <Image
-                source={require("../assets/images/slot-plus.png")}
-                style={styles.buttonPlusMinusImage}
-              />
+              <TouchableOpacity onPress={() => incrementBet(50)}>
+                <Image
+                  source={require("../assets/images/slot-plus.png")}
+                  style={styles.buttonPlusMinusImage}
+                />
+              </TouchableOpacity>
             </View>
 
-            <TouchableOpacity style={styles.button} onPress={spinSlots}>
+            <TouchableOpacity
+              style={[styles.button, isSpinDisabled && styles.buttonDisabled]}
+              onPress={spinSlots}
+              disabled={isSpinDisabled}
+            >
               <Image
                 source={require("../assets/images/play-button.png")}
                 style={styles.buttonImage}
@@ -354,9 +458,12 @@ const styles = StyleSheet.create({
     width: 300,
     alignItems: "center",
   },
+  buttonDisabled: {
+    opacity: 0.5,
+  },
   buttonImage: {
     top: 10,
-    right: 5,
+    right: 22,
     height: 80,
     resizeMode: "contain",
   },

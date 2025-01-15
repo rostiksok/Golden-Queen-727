@@ -1,0 +1,1702 @@
+{
+  "quiz": [
+    {
+      "category": "Wissenschaft",
+      "questions": [
+        {
+          "question": "Welcher Planet ist als „Roter Planet“ bekannt?",
+          "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+          "answer": "Mars",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist das chemische Symbol für Wasser?",
+          "options": ["H2O", "HO2", "H3O", "O2"],
+          "answer": "H2O",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer hat die allgemeine Relativitätstheorie entwickelt?",
+          "options": [
+            "Albert Einstein",
+            "Isaac Newton",
+            "Stephen Hawking",
+            "Nikola Tesla"
+          ],
+          "answer": "Albert Einstein",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wie alt ist die Erde ungefähr?",
+          "options": [
+            "4,5 Milliarden Jahre",
+            "3,5 Milliarden Jahre",
+            "5,5 Milliarden Jahre",
+            "6 Milliarden Jahre"
+          ],
+          "answer": "4,5 Milliarden Jahre",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wie heißt der größte Teilchenbeschleuniger der Welt?",
+          "options": [
+            "Großer Hadronenbeschleuniger",
+            "Fermilab",
+            "Stanford Linear Collider",
+            "RIC"
+          ],
+          "answer": "Großer Hadronenbeschleuniger",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Was ist der größte Planet im Sonnensystem?",
+          "options": ["Jupiter", "Saturn", "Neptun", "Erde"],
+          "answer": "Jupiter",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist die ungefähre Lichtgeschwindigkeit pro Sekunde?",
+          "options": [
+            "300.000 km/s",
+            "150.000 km/s",
+            "1000 km/s",
+            "30.000 km/s"
+          ],
+          "answer": "300.000 km/s",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welches Teilchen im Atomkern ist positiv geladen?",
+          "options": ["Proton", "Elektron", "Neutron", "Photon"],
+          "answer": "Proton",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was bedeutet DNA?",
+          "options": [
+            "Desoxyribonukleinsäure",
+            "Dynamisches Neutronenfeld",
+            "Digitaler Nukleinantikörper",
+            "Differenzielle Nukleinsäure"
+          ],
+          "answer": "Desoxyribonukleinsäure",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Bei welcher Temperatur beginnt Wasser zu kochen?",
+          "options": ["100°C", "90°C", "50°C", "150°C"],
+          "answer": "100°C",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Was ist das größte Landtier?",
+          "options": ["Afrikanischer Elefant", "Blauwal", "Nashorn", "Giraffe"],
+          "answer": "Afrikanischer Elefant",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Was ist die Essenz des nullten Hauptsatzes der Thermodynamik?",
+          "options": [
+            "Thermisches Gleichgewicht",
+            "Energieeinsparung",
+            "Entropiezuwachs",
+            "Gesetz des Nichts"
+          ],
+          "answer": "Thermisches Gleichgewicht",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Welcher Wissenschaftler hat die Ladung des Elektrons entdeckt?",
+          "options": [
+            "Robert Milliken",
+            "Niels Bohr",
+            "Marie Curie",
+            "James Chadwick"
+          ],
+          "answer": "Robert Milliken",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Wer hat die berühmte Gleichung formuliert, die der Quantenmechanik zugrunde liegt?",
+          "options": [
+            "Erwin Schrödinger",
+            "Max Planck",
+            "Werner Heisenberg",
+            "Wolfgang Pauli"
+          ],
+          "answer": "Erwin Schrödinger",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Die Bewegung welcher äußeren Schicht hängt mit dem Erdmagnetfeld zusammen?",
+          "options": ["Äußerer Kern", "Mantel", "Lithosphäre", "Innerer Kern"],
+          "answer": "Äußerer Kern",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Was ist das chemische Symbol für Wasser?",
+          "options": ["H2O", "O2", "CO2", "NaCl"],
+          "answer": "H2O",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wie viele Planeten gibt es in unserem Sonnensystem?",
+          "options": ["8", "7", "9", "10"],
+          "answer": "8",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welches Gas nehmen Pflanzen aus der Atmosphäre auf?",
+          "options": [
+            "Sauerstoff",
+            "Kohlendioxid",
+            "Stickstoff",
+            "Wasserstoff"
+          ],
+          "answer": "Kohlendioxid",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wie groß ist die Lichtgeschwindigkeit im Vakuum?",
+          "options": [
+            "299.792 km/s",
+            "150.000 km/s",
+            "1.080.000 km/h",
+            "300.000 km/h"
+          ],
+          "answer": "299.792 km/s",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Was ist das Kraftwerk der Zelle?",
+          "options": ["Mitochondrien", "Kern", "Ribosom", "Chloroplasten"],
+          "answer": "Mitochondrien",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welches Gas kommt in der Erdatmosphäre am häufigsten vor?",
+          "options": [
+            "Stickstoff",
+            "Sauerstoff",
+            "Kohlendioxid",
+            "Wasserstoff"
+          ],
+          "answer": "Stickstoff",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welcher Planet heißt Roter Planet?",
+          "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+          "answer": "Mars",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wie lautet die chemische Formel von Speisesalz?",
+          "options": ["NaCl", "KCl", "CaCO3", "MgSO4"],
+          "answer": "NaCl",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wer hat die drei Bewegungsgesetze erfunden?",
+          "options": [
+            "Albert Einstein",
+            "Isaac Newton",
+            "Galileo Galilei",
+            "Nikola Tesla"
+          ],
+          "answer": "Isaac Newton",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welches Organ ist das größte im menschlichen Körper?",
+          "options": ["Leder", "Leber", "Herz", "Lunge"],
+          "answer": "Leder",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer hat die allgemeine Relativitätstheorie entwickelt?",
+          "options": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Nikola Tesla",
+            "Galileo Galilei"
+          ],
+          "answer": "Albert Einstein",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Was ist der härteste Naturstoff der Erde?",
+          "options": ["Diamant", "Gold", "Eisen", "Quarz"],
+          "answer": "Diamant",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Was ist die Essenz des zweiten Hauptsatzes der Thermodynamik?",
+          "options": [
+            "Energieeinsparung",
+            "Entropie",
+            "Kraft und Bewegung",
+            "Schwerkraft"
+          ],
+          "answer": "Entropie",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Welcher Planet ist für seine Ringe bekannt?",
+          "options": ["Saturn", "Jupiter", "Neptun", "Mars"],
+          "answer": "Saturn",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Durch welchen Prozess erhalten Pflanzen ihre Nahrung?",
+          "options": ["Photosynthese", "Atem", "Transpiration", "Verdauung"],
+          "answer": "Photosynthese",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer wird als Vater der modernen Physik bezeichnet?",
+          "options": [
+            "Albert Einstein",
+            "Isaac Newton",
+            "Galileo Galilei",
+            "Niels Bohr"
+          ],
+          "answer": "Albert Einstein",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Welches ist das Hauptgas, das in der Luft, die wir atmen, vorkommt?",
+          "options": ["Stickstoff", "Sauerstoff", "Kohlendioxid", "Argon"],
+          "answer": "Stickstoff",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welcher Teil des Atoms ist positiv geladen?",
+          "options": ["Protonen", "Neutronen", "Elektronen", "Neutrino"],
+          "answer": "Protonen",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welches chemische Element wird durch das Symbol O dargestellt?",
+          "options": ["Sauerstoff", "Wasserstoff", "Stickstoff", "Kohlenstoff"],
+          "answer": "Sauerstoff",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer gilt als Vater der modernen Physik?",
+          "options": [
+            "Albert Einstein",
+            "Isaac Newton",
+            "Nikola Tesla",
+            "Galileo Galilei"
+          ],
+          "answer": "Albert Einstein",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welcher Stern ist der Erde am nächsten?",
+          "options": ["Sonne", "Sirius", "Alpha Centauri", "Polaris"],
+          "answer": "Sonne",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welches Gas macht den größten Teil der Erdatmosphäre aus?",
+          "options": [
+            "Stickstoff",
+            "Sauerstoff",
+            "Kohlendioxid",
+            "Wasserstoff"
+          ],
+          "answer": "Stickstoff",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wie heißt die Wissenschaft, die Pilze erforscht?",
+          "options": ["Pilzkunde", "Botanik", "Zoologie", "Ökologie"],
+          "answer": "Pilzkunde",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Welcher Planet ist als Roter Planet bekannt?",
+          "options": ["Mars", "Venus", "Jupiter", "Saturn"],
+          "answer": "Mars",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wie alt ist die Erde ungefähr?",
+          "options": [
+            "4,5 Milliarden Jahre",
+            "3,5 Milliarden Jahre",
+            "5,5 Milliarden Jahre",
+            "6 Milliarden Jahre"
+          ],
+          "answer": "4,5 Milliarden Jahre",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wie heißt der größte Teilchenbeschleuniger der Welt?",
+          "options": [
+            "Großer Hadronenbeschleuniger",
+            "Fermilab",
+            "Stanford Linear Collider",
+            "RIC"
+          ],
+          "answer": "Großer Hadronenbeschleuniger",
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "category": "Geographie",
+      "questions": [
+        {
+          "question": "Was ist die Hauptstadt von Frankreich?",
+          "options": ["Paris", "Berlin", "Madrid", "Roma"],
+          "answer": "Paris",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist der längste Fluss der Welt?",
+          "options": ["Amazonas", "Null", "Jangtse", "Mississippi"],
+          "answer": "Null",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Was ist die Hauptstadt der Türkei?",
+          "options": ["Ankara", "Istanbul", "Izmir", "Schleimbeutel"],
+          "answer": "Ankara",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist der längste Fluss Europas?",
+          "options": ["Wolga", "Ren", "Thunfisch", "Digneper"],
+          "answer": "Wolga",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welcher Berg gilt als der höchste in Afrika?",
+          "options": [
+            "Kilimandscharo",
+            "Atlas von Daglara",
+            "Kenia Dougie",
+            "Ruwenzori"
+          ],
+          "answer": "Kilimandscharo",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Liegt das Land nicht in Südamerika?",
+          "options": ["Mexiko", "Argentinien", "Peru", "Brasilien"],
+          "answer": "Mexiko",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welches der folgenden Länder ist nicht skandinavisch?",
+          "options": ["Holland", "Norwegen", "Schweden", "Dänemark"],
+          "answer": "Holland",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Welcher Kontinent ist am anfälligsten für Wüstenbildung?",
+          "options": ["Afrika", "Asien", "Australien", "Nordamerika"],
+          "answer": "Afrika",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wo ist das größte Korallenriff der Welt?",
+          "options": [
+            "Vor der Küste Australiens",
+            "Karibisches Meer",
+            "Rotes Meer",
+            "Beringmeer"
+          ],
+          "answer": "Vor der Küste Australiens",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "In welchen Regionen gibt es Permafrost?",
+          "options": [
+            "Subpolare Regionen",
+            "Wüsten",
+            "Äquatorialregionen",
+            "Monsunregionen"
+          ],
+          "answer": "Subpolare Regionen",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Welche beiden Ozeane sind durch den Panamakanal verbunden?",
+          "options": [
+            "Atlantik und Pazifik",
+            "Indisch und atlantisch",
+            "Arktis und Pazifik",
+            "Antarktis und Indianer"
+          ],
+          "answer": "Atlantik und Pazifik",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Welcher Kontinent ist flächenmäßig der größte?",
+          "options": ["Asien", "Afrika", "Nordamerika", "Antarktis"],
+          "answer": "Asien",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist die Hauptstadt Australiens?",
+          "options": ["Sydney", "Canberra", "Melbourne", "Brisbane"],
+          "answer": "Canberra",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welcher Fluss ist der längste der Welt?",
+          "options": ["Nil", "Amazonas", "Jangtse", "Mississippi"],
+          "answer": "Nil",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welches Land der Welt ist flächenmäßig das kleinste?",
+          "options": ["Vatikan", "Monaco", "San Marino", "Liechtenstein"],
+          "answer": "Vatikan",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Was ist die Hauptstadt Japans?",
+          "options": ["Tokio", "Osaka", "Kyoto", "Nagoya"],
+          "answer": "Tokio",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist die größte Wüste der Welt?",
+          "options": ["Sahara", "Gobi", "Kalahari", "Arktis"],
+          "answer": "Sahara",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welches Land hat die natürlichsten Seen?",
+          "options": ["Kanada", "Brasilien", "USA", "Russland"],
+          "answer": "Kanada",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "In welchem ​​Gebirge liegt der Everest?",
+          "options": ["Himalaya", "Anden", "Rocky Mountains", "Alpen"],
+          "answer": "Himalaya",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welches Land wird das Land der aufgehenden Sonne genannt?",
+          "options": ["China", "Japan", "Thailand", "Südkorea"],
+          "answer": "Japan",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist der längste Fluss Asiens?",
+          "options": ["Jangtse", "Gelber Fluss", "Mekong", "Ganges"],
+          "answer": "Jangtse",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Was ist der größte Ozean der Erde?",
+          "options": [
+            "Pazifik See",
+            "Atlantischer Ozean",
+            "Indischer Ozean",
+            "Nordpolarmeer"
+          ],
+          "answer": "Pazifik See",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist die Hauptstadt Kanadas?",
+          "options": ["Ottawa", "Toronto", "Montreal", "Vancouver"],
+          "answer": "Ottawa",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welches Gebirgssystem ist das höchste der Erde?",
+          "options": ["Himalaya", "Alpen", "Anden", "Kaukasus"],
+          "answer": "Himalaya",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist der längste Fluss der Welt?",
+          "options": ["Amazonas", "Nil", "Jangtse", "Mississippi"],
+          "answer": "Nil",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Welcher Kontinent gilt als der flächenmäßig kleinste?",
+          "options": ["Australien", "Europa", "Antarktis", "Südamerika"],
+          "answer": "Australien",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist die Hauptstadt von Frankreich?",
+          "options": ["Paris", "Berlin", "Madrid", "Rom"],
+          "answer": "Paris",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist die größte Wüste der Welt?",
+          "options": [
+            "Antarktische Wüste",
+            "Sahara-Wüste",
+            "Arktische Wüste",
+            "Wüste Gobi"
+          ],
+          "answer": "Antarktische Wüste",
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "category": "Geschichte",
+      "questions": [
+        {
+          "question": "Amerikas erster Präsident?",
+          "options": [
+            "George Washington",
+            "Abraham Lincoln",
+            "Thomas Jefferson",
+            "John Adams"
+          ],
+          "answer": "George Washington",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Birinci Dunya Savashi hat aufgelegt?",
+          "options": ["1914", "1918", "1939", "1920"],
+          "answer": "1914",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wie hieß das Schiff, mit dem die Pilger (Pilgrims) im Jahr 1620 nach Amerika reisten?",
+          "options": ["Mayflower", "Santa Maria", "Bemühen", "Entdeckung"],
+          "answer": "Mayflower",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "In welchem ​​Jahr gilt offiziell der Zusammenbruch des Osmanischen Reiches?",
+          "options": ["1922", "1919", "1923", "1908"],
+          "answer": "1922",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Warum wurde die Große Mur von China gebaut?",
+          "options": [
+            "Verteidigung",
+            "Handel",
+            "Bewässerung",
+            "Königliche Residenz"
+          ],
+          "answer": "Verteidigung",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "In welcher Region lebten die Sumerer?",
+          "options": ["Mesopotamien", "Ägypten", "Industal", "Anatolien"],
+          "answer": "Mesopotamien",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer war der Gründer des Mongolenreiches?",
+          "options": ["Dschingis Khan", "Attila", "Tamerlan", "Ogedei Khan"],
+          "answer": "Dschingis Khan",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Welche Zivilisation gilt als Erfinder der ersten Schriftsprache?",
+          "options": ["Sumerer", "Hethiter", "Ägypter", "Phönizier"],
+          "answer": "Sumerer",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "In welchem ​​Jahr begann die Französische Revolution?",
+          "options": ["1789", "1799", "1776", "1804"],
+          "answer": "1789",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wie heißt Homers Epos über den Trojanischen Krieg?",
+          "options": ["Ilias", "Odyssee", "Kalevala", "Mahabharata"],
+          "answer": "Ilias",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer war die berühmte Pharaonin Ägyptens?",
+          "options": ["Hatschepsut", "Kleopatra", "Nofretete", "Tiye"],
+          "answer": "Hatschepsut",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "In welchem ​​Jahr wurde die Magna Carta unterzeichnet?",
+          "options": ["1215", "1066", "1492", "1302"],
+          "answer": "1215",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Unter welchem ​​Sultan wurde die Schlacht bei Mohács gewonnen?",
+          "options": [
+            "Kanuni Sultan Suleiman",
+            "Fatih Sultan Mehmet",
+            "Yavuz Sultan Selim",
+            "Sultan Bayezid II"
+          ],
+          "answer": "Kanuni Sultan Suleiman",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer war der erste Präsident der USA?",
+          "options": [
+            "Thomas Jefferson",
+            "George Washington",
+            "Abraham Lincoln",
+            "John Adams"
+          ],
+          "answer": "George Washington",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "In welchem ​​Jahr endete der Zweite Weltkrieg?",
+          "options": ["1945", "1939", "1918", "1963"],
+          "answer": "1945",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wie hieß das Schiff, mit dem die Pilger 1620 nach Amerika segelten?",
+          "options": ["Mayflower", "Santa Maria", "Beagle", "Bemühen"],
+          "answer": "Mayflower",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wer hat Amerika entdeckt?",
+          "options": [
+            "Christoph Kolumbus",
+            "Leif Erikson",
+            "Amerigo Vespucci",
+            "James Cook"
+          ],
+          "answer": "Christoph Kolumbus",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welche alte Zivilisation hat die Pyramiden gebaut?",
+          "options": ["Ägypter", "Maya-", "Römer", "Azteken"],
+          "answer": "Ägypter",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer war in der russischen Geschichte als „verrückter Mönch“ bekannt?",
+          "options": [
+            "Grigori Rasputin",
+            "Wladimir Lenin",
+            "Iwan der Schreckliche",
+            "Josef Stalin"
+          ],
+          "answer": "Grigori Rasputin",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Wer war der erste Kaiser von Rom?",
+          "options": ["Julius Cäsar", "August", "Nero", "Caligula"],
+          "answer": "August",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "In welchem ​​Land begann die Renaissance?",
+          "options": ["Frankreich", "England", "Italien", "Deutschland"],
+          "answer": "Italien",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wer war der britische Premierminister während des Zweiten Weltkriegs?",
+          "options": [
+            "Winston Churchill",
+            "Margaret Thatcher",
+            "Neville Chamberlain",
+            "Tony Blair"
+          ],
+          "answer": "Winston Churchill",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "In welchem ​​Jahr fiel die Berliner Mauer?",
+          "options": ["1989", "1991", "1985", "1990"],
+          "answer": "1989",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wer war die erste Frau, die alleine den Atlantik überquerte?",
+          "options": [
+            "Amelia Earhart",
+            "Sally Ride",
+            "Bessie Coleman",
+            "Harriet Quimby"
+          ],
+          "answer": "Amelia Earhart",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "In welchem ​​Jahr brach die UdSSR zusammen?",
+          "options": ["1991", "1989", "1992", "1987"],
+          "answer": "1991",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "In welchem ​​Jahr begann der Erste Weltkrieg?",
+          "options": ["1914", "1918", "1939", "1920"],
+          "answer": "1914",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welche antike Stadt wurde 79 n. Chr. durch einen Vulkanausbruch zerstört?",
+          "options": ["Pompeji", "Alexandria", "Rom", "Karthago"],
+          "answer": "Pompeji",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wer war der erste Astronaut, der ins All flog?",
+          "options": [
+            "Juri Gagarin",
+            "Alexey Leonov",
+            "Neil Armstrong",
+            "Walentina Tereschkowa"
+          ],
+          "answer": "Juri Gagarin",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "In welchem ​​Jahr begann der Erste Weltkrieg?",
+          "options": ["1914", "1918", "1939", "1920"],
+          "answer": "1914",
+          "difficulty": "Medium"
+        }
+      ]
+    },
+    {
+      "category": "Technologie",
+      "questions": [
+        {
+          "question": "Schöpfer von Microsoft?",
+          "options": [
+            "Bill Gates",
+            "Steve Jobs",
+            "Mark Zuckerberg",
+            "Elon Musk"
+          ],
+          "answer": "Bill Gates",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "In welchem ​​Jahr wurde das erste iPhone veröffentlicht?",
+          "options": ["2007", "2005", "2010", "2008"],
+          "answer": "2007",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Was bedeutet „HTML“?",
+          "options": [
+            "Hypertext-Auszeichnungssprache",
+            "Maschinensprache HighText",
+            "Maschinensprache HyperTool",
+            "Hypertext-Kontrollsprache"
+          ],
+          "answer": "Hypertext-Auszeichnungssprache",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Gründer von Apple",
+          "options": ["Steve Jobs", "Bill Gates", "Larry Seite", "Jeff Bezos"],
+          "answer": "Steve Jobs",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welche Suchmaschine ist die beliebteste der Welt?",
+          "options": ["Google", "Bing", "Yahoo", "Yandex"],
+          "answer": "Google",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welcher Autokonzern ist für seine Elektrofahrzeuge bekannt?",
+          "options": ["Tesla", "Ford", "Toyota", "BMW"],
+          "answer": "Tesla",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Zu welchen Zwecken wurde eine der ersten Programmiersprachen, Fortran, entwickelt?",
+          "options": [
+            "Wissenschaftliche Berechnungen",
+            "Website-Entwicklung",
+            "Datenbankverwaltung",
+            "Mobile Anwendungen"
+          ],
+          "answer": "Wissenschaftliche Berechnungen",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wer hat den Kernel des Linux-Betriebssystems entwickelt?",
+          "options": [
+            "Linus Torvalds",
+            "Richard Stallmann",
+            "Guido van Rossum",
+            "Dennis Ritchie"
+          ],
+          "answer": "Linus Torvalds",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Welches Unternehmen hat die Programmiersprache Java entwickelt?",
+          "options": ["Sun Microsystems", "Microsoft", "IBM", "Apfel"],
+          "answer": "Sun Microsystems",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Was verdoppelt sich laut Moores Gesetz alle zwei Jahre?",
+          "options": [
+            "Anzahl der Transistoren",
+            "Speicherkapazität",
+            "Bildschirmauflösung",
+            "Internetgeschwindigkeit"
+          ],
+          "answer": "Anzahl der Transistoren",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wie hieß die frühe Version des Internets?",
+          "options": ["ARPANET", "NET-Proto", "InterLink", "EtherNet"],
+          "answer": "ARPANET",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Welche Technologie liegt der Kryptowährung Bitcoin zugrunde?",
+          "options": [
+            "Blockchain",
+            "Quantenschaltung",
+            "Hashgraph",
+            "Merkle-Baum"
+          ],
+          "answer": "Blockchain",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer hat die Programmiersprache C entwickelt?",
+          "options": [
+            "Dennis Ritchie",
+            "Ken Thompson",
+            "Brian Kernighan",
+            "Bjarne Stroustrup"
+          ],
+          "answer": "Dennis Ritchie",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer hat Microsoft gegründet?",
+          "options": [
+            "Bill Gates",
+            "Steve Jobs",
+            "Mark Zuckerberg",
+            "Elon Musk"
+          ],
+          "answer": "Bill Gates",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "In welchem ​​Jahr wurde das erste iPhone veröffentlicht?",
+          "options": ["2007", "2005", "2010", "2008"],
+          "answer": "2007",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Mit welcher Programmiersprache werden Android-Anwendungen entwickelt?",
+          "options": ["Java", "Python", "C++", "Rubin"],
+          "answer": "Java",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Der erste Personal Computer?",
+          "options": ["IBM-PC", "Apfel I", "Commodore 64", "Atari 800"],
+          "answer": "IBM-PC",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Was ist die beliebteste Suchmaschine der Welt?",
+          "options": ["Google", "Bing", "Yahoo", "DuckDuckGo"],
+          "answer": "Google",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "In welchem ​​Jahr wurde das erste iPhone veröffentlicht?",
+          "options": ["2007", "2005", "2010", "2008"],
+          "answer": "2007",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Was bedeutet die Abkürzung „HTML“?",
+          "options": [
+            "Hypertext-Auszeichnungssprache",
+            "Maschinensprache HighText",
+            "Maschinensprache HyperTool",
+            "Hypertext-Kontrollsprache"
+          ],
+          "answer": "Hypertext-Auszeichnungssprache",
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "category": "Filme",
+      "questions": [
+        {
+          "question": "Kim Yonetmishtir aus dem Film Titanic?",
+          "options": [
+            "James Cameron",
+            "Steven Spielberg",
+            "Quentin Tarantino",
+            "Martin Scorsese"
+          ],
+          "answer": "James Cameron",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "1994 Veröffentlichung bei den Oscars im Film „Kazandi?“",
+          "options": [
+            "Forrest Gump",
+            "Pulp Fiction",
+            "Shawshank-Erlösung",
+            "König der Löwen"
+          ],
+          "answer": "Forrest Gump",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welcher Film zeigt das fiktive afrikanische Land Wakanda?",
+          "options": [
+            "Schwarzer Panther",
+            "König der Löwen",
+            "Avatar",
+            "Wunderfrau"
+          ],
+          "answer": "Schwarzer Panther",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer ist der Regisseur der Herr der Ringe-Trilogie?",
+          "options": [
+            "Peter Jackson",
+            "James Cameron",
+            "Steven Spielberg",
+            "Ridley Scott"
+          ],
+          "answer": "Peter Jackson",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Die Harry-Potter-Filmreihe basiert auf den Werken welchen Autors?",
+          "options": [
+            "J. K. Rowling",
+            "Tolkien",
+            "C. S. Lewis",
+            "George R. R. Martin"
+          ],
+          "answer": "J. K. Rowling",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer spielte die Figur Neo im Film „Matrix“?",
+          "options": ["Keanu Reeves", "Brad Pitt", "Will Smith", "Johnny Depp"],
+          "answer": "Keanu Reeves",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer ist der Regisseur des Films „Interstellar“?",
+          "options": [
+            "Christopher Nolan",
+            "Tim Burton",
+            "Martin Scorsese",
+            "Quentin Tarantino"
+          ],
+          "answer": "Christopher Nolan",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wer spielte die Figur Maximus im Film Gladiator?",
+          "options": [
+            "Russell Crowe",
+            "Mel Gibson",
+            "Gerard Butler",
+            "Tom Hanks"
+          ],
+          "answer": "Russell Crowe",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wer spielte die Hauptfigur im Film „Forrest Gump“?",
+          "options": [
+            "Tom Hanks",
+            "Tom Cruise",
+            "Robin Williams",
+            "Leonardo DiCaprio"
+          ],
+          "answer": "Tom Hanks",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wer war der Regisseur und Hauptdarsteller im Film Citizen Kane?",
+          "options": [
+            "Orson Welles",
+            "Alfred Hitchcock",
+            "Charlie Chaplin",
+            "John Huston"
+          ],
+          "answer": "Orson Welles",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer hat den italienischen Film La Dolce Vita gedreht?",
+          "options": [
+            "Federico Fellini",
+            "Sergio Leone",
+            "Luchino Visconti",
+            "Michelangelo Antonioni"
+          ],
+          "answer": "Federico Fellini",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer war der Regisseur des Films Blade Runner?",
+          "options": [
+            "Ridley Scott",
+            "Francis Ford Coppola",
+            "Brian De Palma",
+            "Stanley Kubrick"
+          ],
+          "answer": "Ridley Scott",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer hat den Film „Psycho“ gedreht?",
+          "options": [
+            "Alfred Hitchcock",
+            "Roman Polanski",
+            "Stanley Kubrick",
+            "William Friedkin"
+          ],
+          "answer": "Alfred Hitchcock",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer spielte die Hauptrolle im Film „Titanic“?",
+          "options": [
+            "Leonardo DiCaprio",
+            "Tom Hanks",
+            "Brad Pitt",
+            "Matt Damon"
+          ],
+          "answer": "Leonardo DiCaprio",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welcher Film gewann 1994 den Oscar für den besten Film?",
+          "options": [
+            "Forrest Gump",
+            "Pulp Fiction",
+            "Shawshank-Erlösung",
+            "Leon"
+          ],
+          "answer": "Forrest Gump",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "In welchem ​​Universum spielt The Avengers?",
+          "options": ["Wunder", "Gleichstrom", "Star Wars", "Star Trek"],
+          "answer": "Wunder",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer hat den Film „Der Pate“ gedreht?",
+          "options": [
+            "Francis Ford Coppola",
+            "Martin Scorsese",
+            "Steven Spielberg",
+            "Quentin Tarantino"
+          ],
+          "answer": "Francis Ford Coppola",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wie viele Filme umfasst die Star-Wars-Saga?",
+          "options": ["9", "6", "12", "10"],
+          "answer": "9",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wer hat den Film Titanic gedreht?",
+          "options": [
+            "James Cameron",
+            "Steven Spielberg",
+            "Quentin Tarantino",
+            "Martin Scorsese"
+          ],
+          "answer": "James Cameron",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wo spielt das fiktive afrikanische Land Wakanda?",
+          "options": [
+            "Schwarzer Panther",
+            "König der Löwen",
+            "Avatar",
+            "Wunderfrau"
+          ],
+          "answer": "Schwarzer Panther",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "In welchem ​​Land fanden die Olympischen Sommerspiele 2016 statt?",
+          "options": [
+            "Brasilien",
+            "China",
+            "Vereinigtes Königreich",
+            "Russland"
+          ],
+          "answer": "Brasilien",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer hat bei der FIFA-Weltmeisterschaft in einem Turnier die meisten Tore geschossen?",
+          "options": [
+            "Juste Fontaine",
+            "Pele",
+            "Miroslav Klose",
+            "Cristiano Ronaldo"
+          ],
+          "answer": "Juste Fontaine",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Was ist die maximale Punktzahl, die Sie beim Snooker in einem Frame erreichen können?",
+          "options": ["147", "155", "150", "162"],
+          "answer": "147",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Welches Land hat die meisten FIFA-Weltmeisterschaften gewonnen?",
+          "options": ["Brasilien", "Deutschland", "Italien", "Argentinien"],
+          "answer": "Brasilien",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wie viele Turniere umfasst der Grand Slam des Tennis?",
+          "options": ["4", "3", "5", "6"],
+          "answer": "4",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer ist der Spieler mit der höchsten Punktzahl in der NBA-Geschichte (Stand 2023)?",
+          "options": [
+            "LeBron James",
+            "Kareem Abdul-Jabbar",
+            "Michael Jordan",
+            "Kobe Bryant"
+          ],
+          "answer": "LeBron James",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer ist der siebenfache Formel-1-Champion?",
+          "options": [
+            "Michael Schumacher",
+            "Ayrton Senna",
+            "Lewis Hamilton",
+            "Sebastian Vettel"
+          ],
+          "answer": "Michael Schumacher",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wann fand die erste FIFA-Weltmeisterschaft statt?",
+          "options": ["1930", "1942", "1950", "1920"],
+          "answer": "1930",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "In welche Richtung darf sich der Läufer im Schach bewegen?",
+          "options": [
+            "Schräg",
+            "Horizontal",
+            "Vertikal",
+            "Sowohl horizontal als auch vertikal"
+          ],
+          "answer": "Schräg",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Welches Team hat die UEFA Champions League am häufigsten gewonnen?",
+          "options": [
+            "echtes Madrid",
+            "Mailand",
+            "Barcelona",
+            "Bayern München"
+          ],
+          "answer": "echtes Madrid",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "In welchem ​​Jahr fanden die ersten Olympischen Spiele der Neuzeit statt?",
+          "options": ["1896", "1900", "1912", "1888"],
+          "answer": "1896",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Bei welchem ​​Turnier wurde Diego Maradonas berühmtes „Goal of God“ erzielt?",
+          "options": [
+            "Weltmeisterschaft 1986",
+            "Weltmeisterschaft 1990",
+            "Weltmeisterschaft 1982",
+            "America's Cup 1987"
+          ],
+          "answer": "Weltmeisterschaft 1986",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wie hieß Muhammad Ali bei seiner Geburt?",
+          "options": [
+            "Cassius Marcellus Clay Jr.",
+            "Malcolm Little",
+            "Joe Fraser",
+            "George Foreman"
+          ],
+          "answer": "Cassius Marcellus Clay Jr.",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wie viele Spieler gibt es in einer normalen Fußballmannschaft?",
+          "options": ["11", "10", "12", "9"],
+          "answer": "11",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "In welcher Sportart wird der Begriff „Homerun“ verwendet?",
+          "options": ["Baseball", "Kricket", "Tennis", "Fußball"],
+          "answer": "Baseball",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welches Land hat die meisten WM-Titel gewonnen?",
+          "options": ["Brasilien", "Deutschland", "Italien", "Argentinien"],
+          "answer": "Brasilien",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Was ist der Nationalsport Japans?",
+          "options": ["Sumo", "Judo", "Karate", "Baseball"],
+          "answer": "Sumo",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wer hält den Rekord für die meisten olympischen Goldmedaillen?",
+          "options": [
+            "Michael Phelps",
+            "Usain Bolt",
+            "Carl Lewis",
+            "Mark Spitz"
+          ],
+          "answer": "Michael Phelps",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Welcher Athlet gilt als der schnellste Mann der Welt?",
+          "options": ["Usain Bolt", "Carl Lewis", "Justin Gatlin", "Tyson Gay"],
+          "answer": "Usain Bolt",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "In welchem ​​Jahr fanden die ersten Olympischen Spiele der Neuzeit statt?",
+          "options": ["1896", "1900", "1924", "1936"],
+          "answer": "1896",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "In welchem ​​Land fanden die Olympischen Sommerspiele 2016 statt?",
+          "options": [
+            "China",
+            "Brasilien",
+            "Vereinigtes Königreich",
+            "Russland"
+          ],
+          "answer": "Brasilien",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Was ist die maximal mögliche Pause in einem Snooker-Frame?",
+          "options": ["147", "155", "150", "152"],
+          "answer": "147",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer hat als Spieler die meisten NBA-Meisterschaften gewonnen?",
+          "options": [
+            "Bill Russell",
+            "Michael Jordan",
+            "LeBron James",
+            "Kobe Bryant"
+          ],
+          "answer": "Bill Russell",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer hält den Rekord für die meisten Tore bei einer einzigen Weltmeisterschaft?",
+          "options": [
+            "Juste Fontaine",
+            "Pele",
+            "Miroslav Klose",
+            "Cristiano Ronaldo"
+          ],
+          "answer": "Juste Fontaine",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Was ist die höchstmögliche Punktzahl in einem Snooker-Frame?",
+          "options": ["147", "155", "150", "162"],
+          "answer": "147",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer ist als „King of Pop“ bekannt?",
+          "options": [
+            "Michael Jackson",
+            "Elvis Presley",
+            "Freddie Mercury",
+            "Prinz"
+          ],
+          "answer": "Michael Jackson",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welche Band hat den Song „Bohemian Rhapsody“ veröffentlicht?",
+          "options": ["Königin", "Die Beatles", "Led Zeppelin", "Pink Floyd"],
+          "answer": "Königin",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wer hat die Oper „Die Hochzeit des Figaro“ geschrieben?",
+          "options": ["Mozart", "Beethoven", "Bach", "Händel"],
+          "answer": "Mozart",
+          "difficulty": "Schwierig"
+        }
+      ]
+    },
+    {
+      "category": "Literatur",
+      "questions": [
+        {
+          "question": "Wer hat den Roman „Stolz und Vorurteil“ geschrieben?",
+          "options": [
+            "Jane Austen",
+            "Emily Brontë",
+            "Charlotte Bronte",
+            "Mary Shelley"
+          ],
+          "answer": "Jane Austen",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wie heißt das totalitäre Regime in George Orwells „1984“?",
+          "options": ["Party", "Bruderschaft", "Ministerium", "Großer Bruder"],
+          "answer": "Party",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Welches epische Gedicht beginnt mit der Zeile „Singe, o Muse, den Zorn des Achilles, Sohn des Peleus“?",
+          "options": ["Ilias", "Odyssee", "Aeneis", "Verlorenes Paradies"],
+          "answer": "Ilias",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer hat „Der kleine Prinz“ geschrieben?",
+          "options": [
+            "Antoine de Saint-Exupéry",
+            "Jules Verne",
+            "Albert Camus",
+            "Victor Hugo"
+          ],
+          "answer": "Antoine de Saint-Exupéry",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wem gehört der Roman „Les Misérables“?",
+          "options": [
+            "Victor Hugo",
+            "Charles Dickens",
+            "Emile Zola",
+            "Alexandre Dumas"
+          ],
+          "answer": "Victor Hugo",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer hat den Roman „Verbrechen und Sühne“ geschrieben?",
+          "options": [
+            "Fjodor Dostojewski",
+            "Leo Tolstoi",
+            "Nikolai Gogol",
+            "Iwan Turgenjew"
+          ],
+          "answer": "Fjodor Dostojewski",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer ist der Autor des Romans To Kill a Mockingbird?",
+          "options": [
+            "Harper Lee",
+            "Mark Twain",
+            "Ernest Hemingway",
+            "John Steinbeck"
+          ],
+          "answer": "Harper Lee",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wer hat Don Quijote geschrieben?",
+          "options": [
+            "Miguel de Cervantes",
+            "Lope de Vega",
+            "Federico Garcia Lorca",
+            "Gabriel Garcia Marquez"
+          ],
+          "answer": "Miguel de Cervantes",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wer ist der Autor der Figur „Hamlet“?",
+          "options": [
+            "William Shakespeare",
+            "Christopher Marlow",
+            "Thomas Kid",
+            "Ben Jonson"
+          ],
+          "answer": "William Shakespeare",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Wem gehören die epischen Gedichte „Ilias“ und „Odyssee“?",
+          "options": ["Homer", "Vergil", "Aischylos", "Sophokles"],
+          "answer": "Homer",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer hat „White Nights“ geschrieben?",
+          "options": [
+            "Fjodor Dostojewski",
+            "Iwan Turgenjew",
+            "Alexander Puschkin",
+            "Anton Tschechow"
+          ],
+          "answer": "Fjodor Dostojewski",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer ist der Autor des Romans „The Scarlet Letter“?",
+          "options": [
+            "Nathaniel Hawthorne",
+            "Herman Melville",
+            "Edgar Allan Poe",
+            "Mark Twain"
+          ],
+          "answer": "Nathaniel Hawthorne",
+          "difficulty": "Schwierig"
+        },
+        {
+          "question": "Wer hat den Roman „Das Bildnis des Dorian Gray“ geschrieben?",
+          "options": [
+            "Oscar Wilde",
+            "George Orwell",
+            "Aldous Huxley",
+            "James Joyce"
+          ],
+          "answer": "Oscar Wilde",
+          "difficulty": "Schwierig"
+        }
+      ]
+    },
+    {
+      "category": "Essen und Trinken",
+      "questions": [
+        {
+          "question": "Welches Land ist berühmt für sein Sushi?",
+          "options": ["Japan", "China", "Südkorea", "Thailand"],
+          "answer": "Japan",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welche Nudelsorte hat die Form kleiner Ohren?",
+          "options": ["Orecchiette", "Penne", "Fusilli", "Rigatoni"],
+          "answer": "Orecchiette",
+          "difficulty": "Durchschnitt"
+        },
+        {
+          "question": "Was ist die Hauptzutat für die traditionelle japanische Miso-Suppe?",
+          "options": ["Sojabohnen", "Algen", "Fisch", "Reis"],
+          "answer": "Sojabohnen",
+          "difficulty": "Schwierig"
+        }
+      ]
+    },
+    {
+      "category": "Unterhaltung",
+      "questions": [
+        {
+          "question": "Wer hat den Film Titanic gedreht?",
+          "options": [
+            "Steven Spielberg",
+            "James Cameron",
+            "Martin Scorsese",
+            "Christopher Nolan"
+          ],
+          "answer": "James Cameron",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welche Band hat das Album „Abbey Road“ veröffentlicht?",
+          "options": [
+            "Die Beatles",
+            "Rolling Stones",
+            "Pink Floyd",
+            "Eiszeppelin"
+          ],
+          "answer": "Die Beatles",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wie heißt die fiktive Schule für Zauberer in der Harry-Potter-Reihe?",
+          "options": ["Hogwarts", "Beauxbatons", "Durmstrang", "Ilvermorny"],
+          "answer": "Hogwarts",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Wer spielte Jack Sparrow in Fluch der Karibik?",
+          "options": [
+            "Johnny Depp",
+            "Orlando Bloom",
+            "Keira Knightley",
+            "Geoffrey Rush"
+          ],
+          "answer": "Johnny Depp",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Wie heißt das fiktive Königreich aus „Der König der Löwen“?",
+          "options": ["Stolze Länder", "Narnia", "Mordor", "Westeros"],
+          "answer": "Stolze Länder",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welcher Schauspieler spielte die Rolle des Iron Man im Marvel Cinematic Universe?",
+          "options": [
+            "Robert Downey Jr.",
+            "Chris Evans",
+            "Mark Ruffalo",
+            "Chris Hemsworth"
+          ],
+          "answer": "Robert Downey Jr.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Was ist der erfolgreichste Film aller Zeiten?",
+          "options": [
+            "Avatar",
+            "Avengers: Endgame",
+            "Titanic",
+            "Star Wars: Das Erwachen der Macht"
+          ],
+          "answer": "Avengers: Endgame",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welcher Autor hat den Roman „1984“ geschrieben?",
+          "options": [
+            "George Orwell",
+            "Aldous Huxley",
+            "J.K. ",
+            "Ernest Hemingway"
+          ],
+          "answer": "George Orwell",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welche ist die am längsten laufende Show am Broadway?",
+          "options": [
+            "Phantom der Oper",
+            "Katzen",
+            "Les Misérables",
+            "Chicago"
+          ],
+          "answer": "Phantom der Oper",
+          "difficulty": "Hard"
+        },
+        {
+          "question": "Wer hat die erste Staffel von Survivor gewonnen?",
+          "options": [
+            "Richard Hatch",
+            "Kelly Wiglesworth",
+            "Sue Hawk",
+            "Rudy Bosch"
+          ],
+          "answer": "Richard Hatch",
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "category": "Musik",
+      "questions": [
+        {
+          "question": "Wer wird „King of Pop“ genannt?",
+          "options": [
+            "Michael Jackson",
+            "Elvis Presley",
+            "Freddie Mercury",
+            "Prinz"
+          ],
+          "answer": "Michael Jackson",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welche Band hat den Song „Bohemian Rhapsody“ veröffentlicht?",
+          "options": ["Königin", "Die Beatles", "Eiszeppelin", "Pink Floyd"],
+          "answer": "Königin",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welcher Komponist hat die Oper „Die Hochzeit des Figaro“ geschrieben?",
+          "options": ["Mozart", "Beethoven", "Bach", "Händel"],
+          "answer": "Mozart",
+          "difficulty": "Hard"
+        }
+      ]
+    },
+    {
+      "category": "Essen und Trinken",
+      "questions": [
+        {
+          "question": "Welches Land ist berühmt für sein Sushi?",
+          "options": ["Japan", "China", "Südkorea", "Thailand"],
+          "answer": "Japan",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Welche Art von Nudeln haben die Form von kleinen Ohren?",
+          "options": ["Orecchiette", "Penne", "Fusilli", "Rigatoni"],
+          "answer": "Orecchiette",
+          "difficulty": "Medium"
+        },
+        {
+          "question": "Welche Zutat wird für die traditionelle japanische Miso-Suppe verwendet?",
+          "options": ["Sojabohnen", "Algen", "Fisch", "Reis"],
+          "answer": "Sojabohnen",
+          "difficulty": "Hard"
+        }
+      ]
+    }
+  ]
+}
